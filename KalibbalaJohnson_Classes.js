@@ -9,11 +9,11 @@ class Phone {
         this.price = price;
     }
 }
-let phone1 = new Phone('Apple', 'iPhone 13 Pro Max', 'Graphite', '256GB', 1099);
-let phone2 = new Phone('Samsung', 'Galaxy S21 Ultra', 'Phantom Black', '512GB', 1199);
+let phone1 = new Phone('Apple', 'iPhone 13 Pro Max', 'white', '256GB', 1099);
+let phone2 = new Phone('Samsung', 'Galaxy S21 Ultra', ' Black', '512GB', 1199);
 let phone3 = new Phone('OnePlus', '9 Pro', 'Morning Mist', '256GB', 969);
 let phone4 = new Phone('Google', 'Pixel 6 Pro', 'Stormy Black', '128GB', 899);
-let phone5 = new Phone('Xiaomi', 'Mi 12', 'Cosmic Black', '256GB', 899);
+let phone5 = new Phone('Xiaomi', 'Mi 12', 'grey', '256GB', 899);
 
 
 
@@ -44,9 +44,9 @@ class Car {
         this.color = color;
         this.price = price;
     let car1 = new Car('Toyota', 'Camry', 2020, 'silver', 25000);
-let car2 = new Car('Honda', 'Civic', 2018, 'red', 20000);
-let car3 = new Car('Ford', 'Mustang', 2019, 'blue', 30000);
-let car4 = new Car('Benz', 'Mercedes', 2021, 'yellow', 70000);
+let car2 = new Car('Nissan', 'Civic', 2018, 'red', 20000);
+let car3 = new Car('KIA', 'Mustang', 2019, 'blue', 30000);
+let car4 = new Car('Benz', 'Mercedes', 2021, 'pink', 70000);
 let car5 = new Car('Tesla', 'S', 2022, 'white', 90000);
 
 
@@ -96,7 +96,7 @@ class Product {
         this.color = color;
     }
 }
-const product1 = new Product('iPhone o', 'Electronics', 999, 'Apple', 'Graphite');
+const product1 = new Product('Samsung', 'Electronics', 999, 'Apple', 'Graphite');
 const product2 = new Product('AirPods', 'Electronics', 249, 'Apple', 'White');
 const product3 = new Product('Nike sneaks', 'Shoes', 90, 'Nike', 'Black');
 const product4 = new Product('Adidas sneaks', 'Shoes', 180, 'Adidas', 'Grey');
@@ -123,8 +123,8 @@ const student5 = new Student('Jacob Wilson', 18, 10, 'Mathematics', 3.6);
 
 
 
-//eihghth class
-class Song {
+//eihgth class
+class track {
     constructor(title, artist, album, genre, releaseYear) {
         this.title = title;
         this.artist = artist;
@@ -133,11 +133,11 @@ class Song {
         this.releaseYear = releaseYear;
     }
 }
-const song1 = new Song('trap for life', 'Queen', 'A Night at the Opera', 'Rock', 2012);
-const song2 = new Song('come on', 'Bob Dylan', 'Highway 61 Revisited', 'Rock', 2010);
-const song3 = new Song('baby baby', 'lil nas', 'Nevermind', 'Grunge', 2018);
-const song4 = new Song('thriller', 'Michael Jackson', 'Thriller', 'Pop', 1994);
-const song5 = new Song('I Will Love You', 'Jason Derulo', 'The Bodyguard', 'Pop', 2016);
+const song1 = new track('trap for life', 'Queen', 'A Night at the Opera', 'Rock', 2012);
+const song2 = new track('come on', 'Bob Dylan', 'Highway 61 Revisited', 'Rock', 2010);
+const song3 = new track('baby baby', 'lil nas', 'Nevermind', 'Grunge', 2018);
+const song4 = new track('thriller', 'Michael Jackson', 'Thriller', 'Pop', 1994);
+const song5 = new track('I Will Love You', 'Jason Derulo', 'The Bodyguard', 'Pop', 2016);
 
 
 
