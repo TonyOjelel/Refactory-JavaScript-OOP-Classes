@@ -1,4 +1,4 @@
-//Calssess
+//Classess
 class Animal {
   constructor(name, color, type, sound) {
     this.name = name;
@@ -231,3 +231,48 @@ console.log(Pen2.write(), " And", Pen2.showColor());
 console.log(Pen3.write(), " And", Pen3.showColor());
 console.log(Pen4.write(), " And", Pen4.showColor());
 console.log(Pen5.write(), " And", Pen5.showColor());
+
+class Farmer {
+  constructor(firstName, lastName, age, address, farmerType) {
+    this.name = firstName + " " + lastName;
+    this.age = age;
+    this.address = address;
+    this.type = farmerType;
+  }
+}
+const Farmer1 = new Farmer("Geogrey", "Odep", 45, "Tororo", "Mixed Farmer");
+const Farmer2 = new Farmer("Jane", "Nakato", 50, "Mukono", "Poultry Farmer");
+const Farmer3 = new Farmer("Mercy", "Awino", 49, "Busia", "Mixed Farmer");
+const Farmer4 = new Farmer("Paul", "Ongaba", 45, "Palisa", "Mixed Farmer");
+const Farmer5 = new Farmer("Rose", "Bsaso", 45, "Seeta", "Piggery Farmer");
+console.log(Farmer1);
+console.log(Farmer2);
+console.log(Farmer3);
+console.log(Farmer4);
+console.log(Farmer5);
+
+class StudentGrades {
+  constructor(studentName, course, marks, cu, gp) {
+    this.name = studentName;
+    this.course = course;
+    this.marks = marks;
+    this.cu = cu;
+    this.gp = gp;
+  }
+}
+let Student1 = new StudentGrades("Wamon John Brian", "Debugging", 75, 4, 4);
+let Student2 = new StudentGrades(
+  "Olamba Annet",
+  "Object oriented Programming",
+  85,
+  4,
+  5
+);
+let Student3 = new StudentGrades("James Odong", "Networking", 75, 4, 4);
+let Student4 = new StudentGrades("Janet Akello", "Programming", 95, 4, 5);
+let Student5 = new StudentGrades("Adong Holga", "Networking", 89, 4, 5);
+console.log(Student1);
+console.log(Student2);
+console.log(Student3);
+console.log(Student4);
+console.log(Student5);
