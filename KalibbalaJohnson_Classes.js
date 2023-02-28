@@ -31,7 +31,7 @@ let animal1 = new Animal('Max', 'dog', 'brown', 5, 20);
 let animal2 = new Animal('Whiskers', 'cat', 'black', 3, 10);
 let animal3 = new Animal('Bubbles', 'fish', 'orange', 1, 2);
 let animal4 = new Animal('Rocky', 'hamster', 'white', 2, 3);
-let animal5 = new Animal('Mimi', 'rabbit', 'gray', 4, 2.5);
+let animal5 = new Animal('Mimi', 'rabbit', 'gray', 4, 1.5);
 
 
 
