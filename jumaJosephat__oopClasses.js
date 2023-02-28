@@ -204,3 +204,30 @@ console.log(Product2.productDetails);
 console.log(Product3.productDetails);
 console.log(Product4.productDetails);
 console.log(Product5.productDetails);
+
+class Pen {
+  constructor(color, brand, lidColor) {
+    this.color = color;
+    this.brand = brand;
+    this.write = () => {
+      return `This is pen writes a ${color} cluor`;
+    };
+    this.showColor = () => {
+      return `it is a ${color} ${brand} pen`;
+    };
+    this.open = () => {
+      return "Pen is opened";
+    };
+  }
+}
+console.log("=============Pens===============");
+const Pen1 = new Pen("Blue", "Nataraj", "blue");
+const Pen2 = new Pen("Blue", "Bic", "blue");
+const Pen3 = new Pen("Red", "Bic", "red");
+const Pen4 = new Pen("Black", "Nice clear", "black");
+const Pen5 = new Pen("Blue", "Smile", "blue");
+console.log(Pen1.write(), " And", Pen1.showColor());
+console.log(Pen2.write(), " And", Pen2.showColor());
+console.log(Pen3.write(), " And", Pen3.showColor());
+console.log(Pen4.write(), " And", Pen4.showColor());
+console.log(Pen5.write(), " And", Pen5.showColor());
