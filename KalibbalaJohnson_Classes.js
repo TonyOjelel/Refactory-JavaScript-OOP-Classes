@@ -80,8 +80,8 @@ class Film {
 }
 const movie1 = new Film('Avengers', 'Mary Smith', 'Drama', 1994, 142);
 const movie2 = new Film('Pirates of Sea', 'John Mark', 'Crime', 1972, 175);
-const movie3 = new Film('The Dark Knight', 'Christopher Nolan', 'Action', 2008, 152);
-const movie4 = new Film('Inception', 'Christopher Nolan', 'Sci-Fi', 2010, 148);
+const movie3 = new Film('50 shades', 'Christopher Nolan', 'Action', 2008, 152);
+const movie4 = new Film('Smurfs', 'Christopher Nolan', 'Sci-Fi', 2010, 148);
 const movie5 = new Film('Spiderman', 'Quentin Tarantino', 'Crime', 1994, 154);
 
 
@@ -96,11 +96,11 @@ class Product {
         this.color = color;
     }
 }
-const product1 = new Product('iPhone 13 Pro', 'Electronics', 999, 'Apple', 'Graphite');
-const product2 = new Product('AirPods Pro', 'Electronics', 249, 'Apple', 'White');
-const product3 = new Product('Nike Air Force 1', 'Shoes', 90, 'Nike', 'Black');
-const product4 = new Product('Adidas Ultraboost 21', 'Shoes', 180, 'Adidas', 'Grey');
-const product5 = new Product('Samsung 55" 4K TV', 'Electronics', 799, 'Samsung', 'Black');
+const product1 = new Product('iPhone o', 'Electronics', 999, 'Apple', 'Graphite');
+const product2 = new Product('AirPods', 'Electronics', 249, 'Apple', 'White');
+const product3 = new Product('Nike sneaks', 'Shoes', 90, 'Nike', 'Black');
+const product4 = new Product('Adidas sneaks', 'Shoes', 180, 'Adidas', 'Grey');
+const product5 = new Product('LG tv', 'Electronics', 799, 'Samsung', 'Black');
 
 
 
@@ -133,11 +133,11 @@ class Song {
         this.releaseYear = releaseYear;
     }
 }
-const song1 = new Song('Bohemian Rhapsody', 'Queen', 'A Night at the Opera', 'Rock', 2012);
-const song2 = new Song('Like a Rolling Stone', 'Bob Dylan', 'Highway 61 Revisited', 'Rock', 2010);
-const song3 = new Song('Smells Like Teen Spirit', 'Nirvana', 'Nevermind', 'Grunge', 2018);
-const song4 = new Song('Billie Jean', 'Michael Jackson', 'Thriller', 'Pop', 1994);
-const song5 = new Song('I Will Always Love You', 'Whitney Houston', 'The Bodyguard', 'Pop', 2006);
+const song1 = new Song('trap for life', 'Queen', 'A Night at the Opera', 'Rock', 2012);
+const song2 = new Song('come on', 'Bob Dylan', 'Highway 61 Revisited', 'Rock', 2010);
+const song3 = new Song('baby baby', 'lil nas', 'Nevermind', 'Grunge', 2018);
+const song4 = new Song('thriller', 'Michael Jackson', 'Thriller', 'Pop', 1994);
+const song5 = new Song('I Will Love You', 'Jason Derulo', 'The Bodyguard', 'Pop', 2016);
 
 
 
