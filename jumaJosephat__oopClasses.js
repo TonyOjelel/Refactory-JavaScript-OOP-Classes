@@ -276,3 +276,116 @@ console.log(Student2);
 console.log(Student3);
 console.log(Student4);
 console.log(Student5);
+
+class Song {
+  constructor(title, writer, album, artist, yearReleased) {
+    this.title = title;
+    this.writer = writer;
+    this.album = album;
+    this.artist = artist;
+    this.yearReleased = yearReleased;
+  }
+}
+const Song1 = new Song(
+  "Love theory",
+  "Jonathan McReynolds",
+  "Love Theory",
+  "Kirk franklin",
+  2019
+);
+const Song2 = new Song("Nyimbo", "Pompi", "Bwana", "Pompi ft Mag44", 2019);
+const Song3 = new Song(
+  "Hello peace",
+  "Brandon Lake",
+  "Kingdom Book",
+  "Mavrick City Music",
+  2022
+);
+const Song4 = new Song(
+  "Up",
+  "Tauren Wells",
+  "joy in the Morning",
+  "Tauren Wells",
+  2022
+);
+const Song5 = new Song(
+  "Desire",
+  "Lomoblaze",
+  "Sunday in lagos",
+  "Lomoblaze",
+  2022
+);
+console.log(Song1);
+console.log(Song2);
+console.log(Song3);
+console.log(Song4);
+console.log(Song5);
+
+class Bill {
+  constructor(id, type, date, time, waSsuccess, payee) {
+    this.id = id;
+    this.type = type;
+    this.date = date;
+    this.time = time;
+    this.waSsuccess = waSsuccess;
+    this.payee = payee;
+  }
+}
+const Bill1 = new Bill(102, "Water Bill", "12-12-2022", "17:00", true, "NWSC");
+const Bill2 = new Bill(
+  1000,
+  "Electricity Bill",
+  "13-03-2022",
+  "13:00",
+  true,
+  "UMEME"
+);
+const Bill3 = new Bill(111, "Internet", "11-11-2022", "03:00", true, "Zuku");
+const Bill4 = new Bill(198, "Airtime", "14-06-2022", "06:00", true, "MTN");
+const Bill5 = new Bill(456, "PAYE", "12-09-2022", "11:00", true, "URA");
+console.log(Bill1);
+console.log(Bill2);
+console.log(Bill3);
+console.log(Bill4);
+console.log(Bill5);
+class Venue {
+  constructor(lat, long, name, capacity, city) {
+    this.location = {
+      latitude: lat,
+      longitude: long,
+      name: name,
+      capacity: capacity,
+      city: city,
+    };
+  }
+}
+const Venue1 = new Venue(23456, 123456, "MTN Arena Lugogo", 8000, "Kampala");
+const Venue2 = new Venue(7890, 1233756, "Theatre Labonita", 5000, "Kampala");
+const Venue3 = new Venue(
+  143728384,
+  12347456,
+  "Kololo Airstrip",
+  30000,
+  "Kampala"
+);
+const Venue4 = new Venue(
+  456789,
+  0987656,
+  "Lugogo Hokey Grounds",
+  20000,
+  "Kampala"
+);
+const Venue5 = new Venue(
+  222456,
+  123356,
+  "Lugogo Cricket Oval",
+  30000,
+  "Kampala"
+);
+const Venue6 = new Venue(14334, 4334, "Tobani Center", 15000, "Kampala");
+console.log(Venue1);
+console.log(Venue2);
+console.log(Venue3);
+console.log(Venue4);
+console.log(Venue5);
+console.log(Venue6);
