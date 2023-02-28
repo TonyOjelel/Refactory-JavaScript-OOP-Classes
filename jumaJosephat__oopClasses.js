@@ -195,7 +195,12 @@ class Product {
   }
 }
 const Product1 = new Product(1, "ear-pods", 50000, (20 / 100) * 100, "4cm");
-const Product2 = new Product(2, "Laoptop", 400000, (5 / 100) * 100, "10 iches");
-
+const Product2 = new Product(2, "Laptop", 400000, (5 / 100) * 100, "10 iches");
+const Product3 = new Product(3, "Iphone", 200000, (1 / 100) * 100, "4.5 iches");
+const Product4 = new Product(4, "Mouse", 50000, (18 / 100) * 100, "5 iches");
+const Product5 = new Product(5, "Keyboard", 50000, (18 / 100) * 100, "15cm");
 console.log(Product1.productDetails);
 console.log(Product2.productDetails);
+console.log(Product3.productDetails);
+console.log(Product4.productDetails);
+console.log(Product5.productDetails);
