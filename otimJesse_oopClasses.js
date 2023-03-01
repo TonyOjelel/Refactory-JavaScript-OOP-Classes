@@ -1,7 +1,7 @@
 // Assignment: Create 10 classes with atleast five or properties and give at least 5 objects for each class.
 
 
-// This is the class phone and it's properties
+// This is the class Tree and it's properties
 class Tree {
     constructor(scientificName, name, origin, height, color, use) {
         this.scientificName = scientificName;
