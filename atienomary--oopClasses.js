@@ -216,3 +216,4 @@ console.log(fruit2);
 console.log(fruit3);
 console.log(fruit4);
 console.log(fruit5);
+
